@@ -1,0 +1,16 @@
+[paths]
+source =
+   src/open_agroecology_tools
+   */site-packages/open_agroecology_tools
+
+[run]
+branch = true
+source =
+    open_agroecology_tools
+    tests
+parallel = true
+
+[report]
+show_missing = true
+precision = 2
+omit = *migrations*
